@@ -1,0 +1,49 @@
+.art-listing {
+    padding: 20px;
+  }
+  
+  .shop-items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .shop-item-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .shop-item-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .shop-item-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .shop-item-card h3,
+  .shop-item-card p {
+    margin: 10px;
+  }
+  
+  .shop-item-card button {
+    margin: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .shop-item-card button:hover {
+    background-color: #0056b3;
+  }
+  

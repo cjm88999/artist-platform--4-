@@ -1,0 +1,22 @@
+.user-shop-items {
+    padding: 20px;
+  }
+  
+  .shop-items-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .shop-item-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .shop-item-card img {
+    width: 100%;
+    height: auto;
+  }
+  

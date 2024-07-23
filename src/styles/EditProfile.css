@@ -1,0 +1,77 @@
+.edit-profile {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-profile form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-profile input,
+  .edit-profile textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-profile .upload-label {
+    margin-bottom: 10px;
+  }
+  
+  .edit-profile .save-button,
+  .edit-profile .save-sections-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .edit-profile .save-button:hover,
+  .edit-profile .save-sections-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-profile .manage-sections {
+    margin-top: 20px;
+  }
+  
+  .edit-profile .section-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .edit-profile .section-item .add-button,
+  .edit-profile .section-item .remove-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-profile .section-item .add-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .edit-profile .section-item .add-button:hover {
+    background-color: #218838;
+  }
+  
+  .edit-profile .section-item .remove-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .edit-profile .section-item .remove-button:hover {
+    background-color: #c82333;
+  }
+  

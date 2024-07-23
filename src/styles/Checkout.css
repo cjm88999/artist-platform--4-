@@ -1,0 +1,35 @@
+.checkout {
+    padding: 20px;
+  }
+  
+  .checkout-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .checkout-item img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .checkout-item h3 {
+    font-size: 1.2em;
+  }
+  
+  .checkout-item p {
+    margin: 5px 0;
+  }
+  
+  .checkout button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  

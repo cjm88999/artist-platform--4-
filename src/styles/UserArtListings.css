@@ -1,0 +1,33 @@
+.user-art-listings {
+    padding: 20px;
+  }
+  
+  .shop-items-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .shop-item-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shop-item-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .shop-item-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .shop-item-card p {
+    margin: 5px 0;
+  }
+  
